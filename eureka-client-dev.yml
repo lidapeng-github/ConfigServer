@@ -1,3 +1,6 @@
+spting: 
+  profiles:
+    active: dev
 eureka:
   instance:
     hostname: cloud-gateway-service
