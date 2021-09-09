@@ -1,1 +1,14 @@
-# ConfigServer
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client-dev
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://localhost:3344
+config: 
+  info: config info dev
