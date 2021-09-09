@@ -1,4 +1,8 @@
 eureka:
+  instance:
+    hostname: cloud-gateway-service
   client:
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7002.com:7001/eureka/
+      register-with-eureka: true
+      fetch-registry: true
