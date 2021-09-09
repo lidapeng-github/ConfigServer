@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: config-client-dev
+    name: config-client
   profiles: dev
 config: 
   info: config info dev
