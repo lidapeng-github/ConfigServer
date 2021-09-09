@@ -4,11 +4,6 @@ server:
 spring:
   application:
     name: config-client-dev
-  cloud:
-    config:
-      label: master
-      name: config
-      profile: dev
-      uri: http://localhost:3344
+  profiles: dev
 config: 
   info: config info dev
